@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shabnam Shams Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Dancing+Script:wght@600&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <button class="theme-toggle" id="theme-toggle">☀️</button>
+</head>
+<body>
+    <header class="hero">
+        <h1>I am Shabnam Shams</h1>
+        <p>Welcome to my colorful portfolio!</p>
+    </header>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section home">
+            <h2>Welcome</h2>
+            <p>Hello! I am Shabnam Shams, a passionate and creative individual excited to showcase my journey and skills. 
+               I am originally from Afghanistan and strongly believe in the power of education, resilience, and self-expression.</p>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="section about">
+            <h2>About Me</h2>
+            <p>
+                My name is Shabnam Shams, and I am an aspiring web designer and developer. I have a strong interest in building 
+                creative digital solutions, and I am always looking for opportunities to learn new skills and improve my craft. 
+                My dream is to inspire others through my work and contribute to meaningful change in my community.I am a passionate and determined web developer with a vision to shape the future of the digital world. My journey in web development is driven by a deep love for creativity, problem-solving, and the power of technology to make a difference in people’s lives.
+
+                My Aspirations in Web Development
+                
+                My ultimate goal is to blend art and technology, creating websites and applications that:
+                 <b>• Enhance Accessibility:</b> Building platforms that everyone, regardless of ability or background, can use and benefit from.
+                 <b>• Inspire Creativity:</b> Designing experiences that are visually stunning and encourage users to think, create, and innovate.
+                 <b>• Transform User Interaction:</b> Pioneering intuitive designs that make technology seamless and enjoyable.
+                 <b>• Support Communities:</b> tools and platforms for education, empowerment, and positive social impact.
+                
+                Innovation as a Core Value
+                
+                <p> I dream of working on projects that are not just functional but groundbreaking. Here’s what I aim to incorporate:
+                 <h3>1. Cutting-edge Technologies</h3>
+                 • AI-driven tools for smarter web experiences.
+                 • Immersive interfaces using AR/VR.
+                 • Integration of voice and gesture controls for a futuristic feel.
+                 <h3>2. Eco-friendly Digital Solutions</h3>
+                 • Creating energy-efficient websites with sustainable coding practices.
+                 • Encouraging green hosting and resource-optimized solutions.
+                 <h3>3.Customized User Experiences</h3>
+                 • Websites that adapt to users’ unique needs and preferences.
+                 • Platforms that feel personal, interactive, and human-centered.
+                 <h3>4. Cultural Expression through Web Design</h3>
+                 • Showcasing diversity by incorporating cultural inspirations into layouts, visuals, and storytelling.
+                 • Building platforms that reflect values, heritage, and global unity.
+                </p>
+                <h3>Mission</h3>
+                
+                I aspire to push the boundaries of web development to create solutions that:
+                 • Foster connectivity and understanding across borders.
+                 • Uplift underrepresented voices.
+                 • Contribute to a world where technology serves as a force for good.
+                
+                By dedicating myself to learning and embracing challenges, I believe I can turn bold ideas into reality and inspire others along the way. The world of web development is limitless, and I am excited to be a part of its future!
+            </p>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="section portfolio">
+            <h2>Portfolio</h2>
+            <div class="project-grid">
+                <!-- Project 1 -->
+                <div class="project">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project 1: First Web Page</h3>
+                    <p>A simple yet functional web page built using HTML and CSS, marking the start of my journey in web development.</p>
+                </div>
+                <!-- Project 2 -->
+                <div class="project">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project 2: Responsive Design</h3>
+                    <p>Exploring responsive design principles to ensure my pages look great on all devices.</p>
+                </div>
+                <!-- Project 3 -->
+                <div class="project">
+                    <img src="project3.jpg" alt="Project 3">
+                    <h3>Project 3: Portfolio Layout</h3>
+                    <p>Designing a creative layout for a personal portfolio using advanced CSS techniques.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Me Section -->
+<section id="contact" class="section contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+        <section id="socials" class="section socials">
+            <h2>Follow me on:</h2>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com" target="_blank" class="social-link" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" class="social-link" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank" class="social-link" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://github.com" target="_blank" class="social-link" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Shabnam Shams Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html><script>
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    themeToggle.addEventListener('click', () => {
+        body.classList.toggle('dark-mode');
+        themeToggle.textContent = body.classList.contains('dark-mode') ? '🌙' : '☀️';
+    });
+</script>
