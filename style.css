@@ -93,7 +93,7 @@ body {
     text-align: center;
     margin-top: 30px;
     padding: 20px;
-    background: #fde6d3; /* رنگ شیرچایی */
+    background: #fde6d3; 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -124,7 +124,7 @@ body {
 .social-link:hover {
     transform: scale(1.2);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
-    background-color: #ffdac1; /* رنگ هنگام هاور */
+    background-color: #ffdac1; 
     color: #333;
 }
 
@@ -215,7 +215,7 @@ body.dark-mode .theme-toggle:hover {
     text-align: center;
     margin-top: 30px;
     padding: 20px;
-    background: #fde6d3; /* رنگ شیرچایی */
+    background: #fde6d3; 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
