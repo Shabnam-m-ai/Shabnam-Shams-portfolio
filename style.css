@@ -287,15 +287,15 @@ body.dark-mode .socials {
 }
 
 body.dark-mode .contact {
-    background: #444; /* پس‌زمینه تیره برای دارک مود */
-    color: #f0f0f0;   /* متن روشن */
+    background: #444; 
+    color: #f0f0f0;   
 }
 
 body.dark-mode .contact-form input,
 body.dark-mode .contact-form textarea {
-    background: #333; /* پس‌زمینه تیره برای ورودی‌ها */
+    background: #333; 
     color: #f0f0f0;
-    border: 2px solid #666; /* خط دور تیره‌تر */
+    border: 2px solid #666; 
 }
 
 body.dark-mode .contact-form button {
@@ -307,9 +307,9 @@ body.dark-mode .contact-form button:hover {
     background-color: #777;
 }/* Dark Mode: Contact Me and Follow Me On */
 body.dark-mode h2 {
-    color: white; /* تغییر رنگ به سفید */
+    color: white; 
 }
 
 body.dark-mode .socials h2 {
-    color: white; /* سفید کردن متن Follow Me On */
+    color: white; /*  Follow Me On */
 }
